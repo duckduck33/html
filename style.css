@@ -107,3 +107,17 @@ h1 span:nth-child(6) {
 form {
     text-align: center;
 }    
+
+.themed {
+    display: block;
+    width: 10em;
+    height: 10em;
+    background: black;
+    color: white;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    .themed {
+      background: white;
+      color: black;
+    }
